@@ -1,0 +1,7 @@
+- node src/.....
+- npm run generate;
+- npm run add-one;
+- npm run get-all;
+- npm run count;
+- npm run remove-all
+- npm run remove-last
