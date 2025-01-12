@@ -7,7 +7,7 @@ export const readContacts = async () => {
   try {
     const data = await fs.readFile(PATH_DB, 'utf8');
     //console.log("Вміст файлу:", data); //string
-    console.log('Вміст файлу/Read:', JSON.parse(data)); //[{},{},{}]
+    // console.log('Вміст файлу/Read:', JSON.parse(data)); //[{},{},{}]
     return JSON.parse(data);
   } catch (err) {
     console.error('Помилка читання файлу:', err.message);

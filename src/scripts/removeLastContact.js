@@ -8,10 +8,10 @@ export const removeLastContact = async () => {
   }
 
   const lastContact = contacts.pop(); // - останній контакт
-  console.log('Контакт що видаляємо:', lastContact.name);
+  // console.log('Контакт що видаляємо:', lastContact.name);
 
   writeContacts(contacts);
-  console.log('Оновленні контакти:', contacts);
+  // console.log('Оновленні контакти:', contacts);
   return contacts;
 };
 
